@@ -10,8 +10,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: List Files After
         run: ls -a
-
-jobs:
   checkout-and-display-files:
     runs-on: ubuntu-latest
     steps:

@@ -7,9 +7,10 @@ jobs:
     steps:
       - name: List Files Before
         run: ls -a
-      - users: action/checkout@v4
+      - uses: actions/checkout@v4
       - name: List Files After
         run: ls -a
+
 jobs:
   checkout-and-display-files:
     runs-on: ubuntu-latest

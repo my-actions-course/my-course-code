@@ -39,4 +39,4 @@ jobs:
           echo "Number: ${{ inputs.number }}"
           echo "string: ${{ inputs.option }}"
           echo "string: ${{ inputs.boolean }}"
-          echo "string: ${{ inputs.environment }}";
+          echo "string: ${{ inputs.environment }}"

@@ -1,5 +1,5 @@
 name: Epressions & Contexts
-on: [push, pull_request, issues]
+on: [push, pull_request, issues, workflow_run]
 
 jobs:
   using-expressions-and-contexts:

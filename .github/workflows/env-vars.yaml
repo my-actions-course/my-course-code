@@ -8,4 +8,4 @@ jobs:
       - name: Log ENV VAR
         run: echo $GITHUB_REF
       - name: log Context
-        run: echo '${{ github.reg }}'
+        run: echo '${{ github.ref }}'

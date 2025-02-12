@@ -7,7 +7,7 @@ jobs:
    # if: github.event_name == 'issues' || github.event_name == 'pull_request'
    # if: contains('hello', 'll') returns true
   # if: contains('hello', 'lefl') returns false
-  if: contains(fromJson('["issues", "pull_request"]'), github.event_name)
+  if: contains(fromJSON('["issues","pull_request"]'), github.event_name)
   steps:
     - name: Run only if issue has a bug label
       if: contains(github.event.issue.labels.*.name, 'bug')

@@ -12,7 +12,7 @@ jobs:
           - os: ubuntu-latest
             is-ubuntu: true
           - os: macos-latest
-            node-version: 15
+            node-version: 16
           - experimental: false
           - os: ubuntu-latest
             node-version: 16

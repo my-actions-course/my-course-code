@@ -33,7 +33,7 @@ jobs:
     needs: prepare-matrix
     strategy:
       matrix:
-        os: ${{ fromJSON(needs.prepar-ematrix.outputs.matrix-arrays) }}
+        os: ${{ fromJSON(needs.prepare-matrix.outputs.matrix-arrays) }}
         node-version: ${{ fromJSON(needs.prepare-matrix.outputs.matrix-arrays) }}
       fail-fast: true
      # max-parallel: 3
